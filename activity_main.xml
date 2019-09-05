@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:orientation="vertical"
+    tools:context="com.hfad.tennis.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonPlayerOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player One"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:onClick="onClickPlayerOneScores"/>
+
+    <Button
+        android:id="@+id/buttonPlayerTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player Two"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:onClick="onClickPlayerTwoScores"/>
+
+    <Button
+        android:id="@+id/buttonNewGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:onClick="onClickNewGame"/>
+
+</LinearLayout>
