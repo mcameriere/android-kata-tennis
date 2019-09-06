@@ -1,4 +1,4 @@
-package com.hfad.tennis;
+package com.example.tennis;
 
 class TennisGame {
     private int playerOneScore = 0;
