@@ -1,4 +1,4 @@
-package com.hfad.tennis;
+package com.example.tennis;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
