@@ -1,4 +1,4 @@
-package com.hfad.tennis;
+package com.example.tennis;
 
 import org.junit.Test;
 
